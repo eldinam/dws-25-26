@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+sqlmodel
+# -V7: biblioteke potrebne za autentikaciju
+bcrypt
+python-jose[cryptography]
+python-multipart
