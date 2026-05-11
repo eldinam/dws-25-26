@@ -5,7 +5,7 @@
 // Pokazuje različit sadržaj za ulogovanog/neulogovanog korisnika.
 
 import Link from "next/link";
-import { useAuth } from "../lib/AuthContext.jsx";
+import { useAuth } from "../utils/AuthContext.jsx";
 
 export default function Home() {
   const { user, loading } = useAuth();

@@ -9,7 +9,7 @@
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useState } from "react";
-import { AuthProvider } from "../lib/AuthContext.jsx";
+import { AuthProvider } from "../utils/AuthContext.jsx";
 
 export default function Providers({ children }) {
   // useState garantuje da se QueryClient kreira SAMO jednom po komponenti

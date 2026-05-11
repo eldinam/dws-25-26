@@ -10,8 +10,8 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useQuery } from "@tanstack/react-query";
-import { apiGet } from "../../lib/api.js";
-import { useAuth } from "../../lib/AuthContext.jsx";
+import { apiGet } from "../../utils/api.js";
+import { useAuth } from "../../utils/AuthContext.jsx";
 
 export default function StudentiPage() {
   const router = useRouter();

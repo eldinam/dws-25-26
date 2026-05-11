@@ -8,7 +8,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
 import Link from "next/link";
-import { apiPost } from "../../lib/api.js";
+import { apiPost } from "../../utils/api.js";
 
 export default function RegisterPage() {
   const [username, setUsername] = useState("");

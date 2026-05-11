@@ -11,8 +11,8 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
 import Link from "next/link";
-import { apiLogin } from "../../lib/api.js";
-import { useAuth } from "../../lib/AuthContext.jsx";
+import { apiLogin } from "../../utils/api.js";
+import { useAuth } from "../../utils/AuthContext.jsx";
 
 export default function LoginPage() {
   const [username, setUsername] = useState("");
