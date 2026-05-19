@@ -1,0 +1,14 @@
+/*
+ * Minimalan CSS - MUI (CssBaseline) već postavlja većinu stvari.
+ * Ovdje samo overrides koje MUI ne radi.
+ */
+
+html, body {
+  height: auto;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
